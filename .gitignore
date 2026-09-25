@@ -1,0 +1,39 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+
+# Dataset - never push challenge data
+dataset/
+data/
+*.tsv
+*.csv
+
+# Model files and generated outputs
+models/
+output/
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# Notebook temporary files
+.ipynb_checkpoints/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
